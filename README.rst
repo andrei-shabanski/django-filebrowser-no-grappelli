@@ -20,6 +20,17 @@ The FileBrowser is an extension to the `Django <http://www.djangoproject.com>`_ 
 * include images/documents to your models/database using the ``FileBrowseField``.
 * select images/documents with TinyMCE.
 
+
+WHY WE FORKED THIS REPO
+------------
+
+django-filebrowser-no-grappelli 3.8.0 has a few issues:
+
+* broken CSS styles Django 3 (PR https://github.com/smacker/django-filebrowser-no-grappelli/pull/68)
+* not support tinymce v5 (PR https://github.com/smacker/django-filebrowser-no-grappelli/pull/67)
+
+This fork contains fixes for that issues.
+
 Requirements
 ------------
 
